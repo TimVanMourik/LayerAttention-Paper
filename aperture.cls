@@ -152,10 +152,10 @@
 \addtolength{\headwidth}{\marginparsep}
 \addtolength{\headwidth}{\marginparwidth}
 \fancyhf{}
-\chead{%
-\setlength{\fboxsep}{3pt}
-\colorbox{eLifeMediumGrey}{\begin{minipage}{\headwidth}\centering\color{white} Manuscript submitted to Aperture\end{minipage}}%
-}
+% \chead{%
+% \setlength{\fboxsep}{3pt}
+% \colorbox{eLifeMediumGrey}{\begin{minipage}{\headwidth}\centering\color{white} Manuscript submitted to Aperture\end{minipage}}%
+% }
 
 % Footers
 \rfoot{\small\color{eLifeMediumGrey}\thepage\space of\space\pageref{LastPage}}%
